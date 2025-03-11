@@ -1,10 +1,9 @@
-USE `UniversityDB`;
-
--- Step 1: Insert data into courses table
-INSERT INTO `Courses` (`CourseName`)
+-- Step 2: Insert data into enrollments table
+INSERT INTO `Enrollments` (`StudentID`, `CourseID`, `EnrollmentDate`)
 VALUES
-   ('Introduction to Computer Science'),
-   ('Calculus I'),
-   ('Modern World History'),
-   ('English Literature'),
-   ('Data Structures');
+   (1, 1, '2023-09-01'),
+   (2, 2, '2023-09-01'),
+   (1, 3, '2023-09-01'),
+   (2, 4, '2023-09-02'),
+   (2, 5, '2023-09-03');
+

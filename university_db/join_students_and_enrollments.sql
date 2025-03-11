@@ -1,5 +1,3 @@
-USE `UniversityDB`;
-
 -- Step 5: Join Students and Enrollments to list student enrollments
 SELECT `s`.`FirstName`, `s`.`LastName`, `e`.`EnrollmentDate`, `c`.`CourseName`  -- Include CourseName
 FROM `Students` AS `s`

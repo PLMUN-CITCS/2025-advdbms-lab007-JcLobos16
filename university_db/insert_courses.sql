@@ -1,5 +1,3 @@
-USE `UniversityDB`;
-
 -- Step 1: Insert data into courses table
 INSERT INTO `Courses` (`CourseName`)
 VALUES
