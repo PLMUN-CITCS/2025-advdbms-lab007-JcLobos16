@@ -1,3 +1,5 @@
+USE `UniversityDB`;
+
 -- Step 2: Insert data into enrollments table
 INSERT INTO `Enrollments` (`StudentID`, `CourseID`, `EnrollmentDate`)
 VALUES
